@@ -1,31 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-		<meta charset="utf-8" />
-		<title>呃..我是杨帆</title>
-		<link rel="stylesheet" href="/stylesheets/styles.css" />
-    </head>
-    <body>
-		<aside class="page">
-			<header class="page">
-				<h3 title="我是杨帆"><a href="/">I'm Yang Fan</a></h3>
-			</header>
-			<nav class="nav_aside">
-				<ul>
-					<li><a href="">Fronted</a></li>
-					<li><a href="">Go Lang</a></li>
-					<li><a href="">Raspberry PI</a></li>
-					<!--><li><a href=""></a></li></-->
-				</ul>
-			</nav>
-		</aside>
-		<div class="container page">
-			<article>
-				<header class="article_header">
-					<h1><a href="/">内容</a></h1>				
-				</header>
-			</article>
-		</div>
-		<script src=""></script>
-    </body>
-</html>
+---
+layout: default
+---
+<div id='content' class='articles container'>
+{% for post in site.posts %}
+    <article class="post">
+        <h3>{{ post.title }}</h3>
+        <div class="abstract">{{ post.content|truncatewords:50}}</div>
+    </article>
+{% endfor %}
+</div>

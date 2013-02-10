@@ -40,8 +40,8 @@ a:hover{
 
 /* Page Header */
 header.page{
-	text-align:right;
-	font-size:1.2em;
+    text-align:center;
+    padding:0 1.5em;
 	line-height:3em;
 }
 
@@ -65,4 +65,24 @@ nav.nav_aside{
 .article_header h1{
 	text-align:center;
 	color:#444;
+}
+
+/* Layout */
+body{
+    text-align:center;
+}
+
+.container {
+    width:40em;
+    margin:auto;
+    text-align:left;
+}
+
+
+#content {
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    background: white;
+    padding: 1.5em;
 }
