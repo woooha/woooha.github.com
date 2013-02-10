@@ -3,8 +3,8 @@ layout: default
 ---
 <div id='content' class='articles container'>
 {% for post in site.posts %}
-    <article class="post">
-        <h3>{{ post.title }}</h3>
+    <article class="post {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
         <div class="abstract">{{ post.content|truncatewords:50}}</div>
     </article>
 {% endfor %}

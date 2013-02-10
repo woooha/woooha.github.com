@@ -11,32 +11,6 @@ body{
 ul, ol{
 	list-style:none;
 }
-/* Typography */
-body{
-	font-family:"Helvetica Neue", "Microsoft Yahei", Simsun, sans-serif;
-	line-height: 1.5;
-	font-size:16px;
-}
-
-h1{
-	font-size:2em;
-	line-height:2em;
-}
-
-h2{
-	font-size:1.6em;
-	line-height:1.6em;
-}
-
-a{
-	color:#2B91AF;
-	text-decoration:none;
-}
-
-a:hover{
-	background:#00A;
-	color:white;
-}
 
 /* Page Header */
 header.page{
@@ -73,11 +47,10 @@ body{
 }
 
 .container {
-    width:40em;
+    width:50em;
     margin:auto;
     text-align:left;
 }
-
 
 #content {
     -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
