@@ -1,4 +1,19 @@
 ---
 layout: default
 ---
-<article id="content" class="post container"><h2>{{page.title}}</h2>{{ content }}</article>
+<article id="content" class="post container">
+    <h2 class="title">{{page.title}}</h2>
+    <div class="meta-data">
+        <div class="posttime">发布日期:<span>{{ page.date|date:"%Y-%m-%d %H:%S" }}</span></div>
+    {% if page.categories %}
+        <div class="categories">分类:
+            <ul>
+            {% for category in page.categories %}
+                <li>{{ category }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    </div>
+    {{ content }}
+</article>

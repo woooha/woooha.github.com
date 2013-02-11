@@ -1,5 +1,5 @@
 body{
-	font-family:"STXihei", "Helvetica Neue", "Microsoft Yahei", Simsun, sans-serif;
+	font-family: Verdana, "STXihei", "Helvetica Neue", "Microsoft Yahei", Simsun, sans-serif;
 	line-height: 1.5;
 	font-size:13px;
     color: #222;
@@ -36,11 +36,10 @@ h6{
 }
 
 a{
-	color:#2B91AF;
+	color:#059;
 	text-decoration:none;
 }
 
 a:hover{
-	background:#00A;
-	color:white;
+    color:#A00;
 }

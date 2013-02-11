@@ -5,7 +5,7 @@ html, body, div, section, span, ul, ol, li, dl, dd, dt, h1, h2, h3, h4, h5, h6{
 }
 
 body{
-	background:#EEE;
+	background:#F3F3F3;
 }
 
 ul, ol{
@@ -16,7 +16,35 @@ ul, ol{
 header.page{
     text-align:center;
     padding:0 1.5em;
-	line-height:3em;
+	line-height:2.5em;
+}
+
+header .brand {
+    float:left;
+    width:10em;
+}
+
+#top_nav{
+    width:82%;
+    float:left;
+    width:80%;
+}
+
+#top_nav li{
+    float:left;
+}
+
+#top_nav li a{
+    display:block;
+    padding:0 1em;
+}
+
+header.page.wrapper{
+    background:#FAFAFA;
+    opacity: 0.9;
+    position:fixed;
+    top:0;left:0;
+    width:100%;
 }
 
 div.container.page {
@@ -57,5 +85,52 @@ body{
     -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     background: white;
-    padding: 1.5em;
+    padding:1em 1.5em;
+    margin:5em auto 4em auto;
+    border:1px solid #EAEAEA;
+    border-bottom:1px solid #CCC;
+}
+
+
+article.post .title{
+    //text-align:center;
+    border-bottom:3px solid black;
+}
+
+article.post {
+    padding-bottom:2em;
+    margin-bottom:1em;
+}
+
+article.post.last{
+    border:none;
+}
+
+.post .meta-data {
+    padding:0.5em 0;
+    margin:0 0 1em 0;
+    color: #777;
+    overflow:hidden;
+}
+.post .meta-data .posttime{
+    float:left;
+    width:50%;
+}
+.post .meta-data .categories{
+    float:right;
+    width:50%;
+    text-align:right;
+}
+
+.post .meta-data .categories ul{
+    float:right;
+}
+
+.post .meta-data .categories li{
+    float:left;
+    margin:0 0.5em;
+}
+
+.category_title{
+    text-align:center;
 }
