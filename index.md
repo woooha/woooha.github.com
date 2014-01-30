@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Woooha's note
-tagline: Supporting tagline
+tagline: 
 ---
 {% include JB/setup %}
 
