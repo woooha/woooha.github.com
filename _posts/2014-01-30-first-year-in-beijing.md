@@ -2,7 +2,7 @@
 layout: post
 title: "First year in Beijing"
 description: ""
-category: 
+category: 随口一说
 tags: []
 ---
 {% include JB/setup %}
